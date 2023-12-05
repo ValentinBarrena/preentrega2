@@ -1,0 +1,19 @@
+<p>docs:
+<ul>
+    {{#each products.docs}}
+    <li>
+        {{!-- Lo realice con ul para ordenar y lograr que sea mas legible, podria haber enviado docs completo pero lo crei correcto de esta manera para agregar el button --}}
+        {{this}}
+        <button>Agregar al carrito</button>
+    </li>
+    {{/each}}
+</ul>
+</p>
+<p>totalDocs: {{products.totalDocs}}</p>
+<p>timit: {{products.limit}}</p>
+<p>total Pages: {{products.totalPages}}</p>
+<p>page: {{products.page}}</p>
+<p>hasPrevPage: {{products.hasPrevPage}}</p>
+<p>hasNextPage: {{products.hasNextPage}}</p>
+<p>prevPage: {{products.prevPage}}</p>
+<p>nextPage: {{products.nextPage }}</p>
